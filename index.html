@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calorie Counter</title>
+    <link rel="stylesheet" href="styles.css">
+  
+    <script src="foodLibrary.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <main>
+        <div id="main">
+        <h2>Enter data for what you ate</h2>
+        <label for="fName">Name of food:</label>
+        <input type="text" id="fName"><br>
+         <label for="calories">Calories:</label>
+        <input type="text" id="calories"><br>
+        <label for="num">How many did you eat:</label>
+        <input type="text" id="num"><br>
+        
+        <input type="button" id="input"
+               value="Click to Add to Your Total"><br />
+        <br />
+        <input type="button" id="clear" value="Clear">
+        <br />
+
+        ========================================================<br />
+        Food--Calories--Quantity
+        
+        
+        <br />
+        <ul id="fdList">
+        </ul>
+        
+        ========================================================<br />
+        <ul id="cal">
+        </ul>
+    </div>
+    </main>
+  </body>
+</html>
